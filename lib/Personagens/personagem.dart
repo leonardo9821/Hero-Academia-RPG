@@ -3,9 +3,8 @@ class Personagem {
   int vida;
   int idade;
   int stamina;
-  String individualidade;
 
-  Personagem(this.nome, this.vida, this.idade,this.stamina,this.individualidade) {
+  Personagem(this.nome, this.vida, this.idade,this.stamina,) {
     if (nome.trim().isEmpty) {
       nome = 'Desconhecido';
     }
@@ -34,7 +33,7 @@ void defender(){}
       print('Vida: $vida');
       print('Idade: $idade');
       print('Stamina: $stamina');
-      print('Individualidade: $individualidade');
+      
 
     }
   
